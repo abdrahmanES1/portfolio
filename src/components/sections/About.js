@@ -106,8 +106,7 @@ function About() {
               <div className="row">
                 <div className="col-md-6">
                   <p className="mt-md-5">
-                    A front-end developer living in Marrakech, Morocco I'm passionate about creating and developing clean, unique, elegant products. I specialize in building Websites for small to medium size business. I keep my code clean, readable, modular and well refactored. I enjoy working with complex user interfaces
-                    <br/><br />
+                    A Mern Stack developer living in Marrakech, Morocco I'm passionate about creating and developing clean, unique, elegant products. I keep my code clean, readable, modular and well refactored. I enjoy working with complex user interfaces        <br/><br />
                     Skills/Knowledge possessed as follows:
                     <br /><br />
                     • XHTML/HTML/HTML5 , Templating Engine ( Jade/Pug etc.)
@@ -122,6 +121,8 @@ function About() {
                     <br />
                     • Git, GulpJs
                     <br />
+                    • MongoDB/mongoose
+                    <br/>
                     • Knowledge About API Integration with various CMS/Backend environment context such as NodeJs / Strapi (Head less CMS)
                   </p>
                   <div className="mt-3">

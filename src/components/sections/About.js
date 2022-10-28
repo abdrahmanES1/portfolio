@@ -126,7 +126,7 @@ function About() {
                     • Knowledge About API Integration with various CMS/Backend environment context such as NodeJs / Strapi (Head less CMS)
                   </p>
                   <div className="mt-3">
-                    <a href="!#" className="btn btn-default" >
+                    <a href="/pdf/Abderrahman_Essebyity.pdf" className="btn btn-default" >
                       Download CV
                     </a>
                   </div>

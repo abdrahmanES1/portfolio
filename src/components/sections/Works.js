@@ -6,10 +6,12 @@ import Doob from '../../assets/works/Doob.png'
 import github from "../../assets/works/github.png";
 import Leon from "../../assets/works/Leon.png";
 
- import Nubis from "../../assets/works/Nubis.png";
+import Nubis from "../../assets/works/Nubis.png";
 import todo from "../../assets/works/todo.png";
 import ecomapp from "../../assets/works/ecom-app.png";
 import eStudentRent from "../../assets/works/e-student-rent.png"
+import findYourpet from "../../assets/works/find-your-pet.png"
+import certificateManager from "../../assets/works/certificate-manager.png"
 
 // import Doob from "images/works/doob.png";
 
@@ -38,12 +40,28 @@ import eStudentRent from "../../assets/works/e-student-rent.png"
 
 const allData = [
   {
+    id: 9,
+    title: "Certificate manager",
+    link: "https://shark-app-v9rkw.ondigitalocean.app/",
+    repos: "https://github.com/abdrahmanES1",
+    image: certificateManager,
+    tools: ['Python', "Django ", "Css3 ", "Bootstrap", "PostgreSQL"],
+  },
+  {
+    id: 8,
+    title: "Find your pet",
+    link: "https://find-your-pet.vercel.app/",
+    repos: "https://github.com/abdrahmanES1",
+    image: findYourpet,
+    tools: ["Html5 ", "Css3 ", "Tailwind.css", "React.js", "Django", "Django Rest Framwork", "PostgreSQL"],
+  },
+  {
     id: 7,
     title: "e student Rent",
     link: "https://e-student-rent.vercel.app/",
     repos: "https://github.com/abdrahmanES1/PFE-client",
     image: eStudentRent,
-    tools: ["Html5 ", "Css3 ", "Tailwind.css", "Next.js ", "Strapi ( Head less CMS)", "MYSQL"],
+    tools: ["Html5 ", "Css3 ", "Tailwind.css", "Next.js ", "Node.js", "express.js", "MongoDb"],
   },
   {
     id: 1,

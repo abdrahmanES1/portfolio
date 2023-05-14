@@ -123,7 +123,7 @@ function Works() {
 
   useEffect(() => {
     // setActiveFilter(filters[0].text.toLowerCase());
-    setVisibleItems(getAllItems.filter((item) => item.id <= 7));
+    setVisibleItems(getAllItems.filter((item) => item.id <= 9));
   }, [getAllItems]);
 
   // handle filter Change

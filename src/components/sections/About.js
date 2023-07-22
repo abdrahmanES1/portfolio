@@ -19,31 +19,25 @@ import Skill from "../elements/Skill";
 //   • React (incl. Router, Hooks, Redux/Thunk, Formik)  Firebase
 //   • Git, GulpJs
 //   • Knowledge About API Integration with various CMS/Backend environment context such as NodeJs / Strapi (Head less CMS)
-      
+
 //     `};
 
 const progressData = [
   {
     id: 1,
-    title: "Html 5",
+    title: "Html 5, Css 3",
     percantage: 90,
     progressColor: "#FF5733",
   },
   {
-    id: 2,
-    title: "Css 3",
-    percantage: 80,
-    progressColor: "#4579AE",
-  },
-  {
     id: 3,
-    title: "JavaScript",
+    title: "JavaScript, TypScript",
     percantage: 70,
     progressColor: "#FFD15C",
   },
   {
     id: 4,
-    title: "React js",
+    title: "React js, Next.js",
     percantage: 80,
     progressColor: "#4579AE",
   },
@@ -61,10 +55,13 @@ const progressData = [
   },
   {
     id: 7,
-    title: "TypeScript",
-    percantage: 70,
+    title: "Django, Django Rest Framework",
+    percantage: 80,
     progressColor: "#21638B",
   },
+
+
+
 ];
 
 // const counterData = [
@@ -100,18 +97,18 @@ function About() {
       <div className="container">
         <Pagetitle title="About Me" />
         <div className="row">
-        
+
           <div className="col  triangle-top-sm">
             <div className="rounded bg-white shadow-dark padding-30">
               <div className="row">
                 <div className="col-md-6">
-                  <p className="mt-md-5">
-                    A Mern Stack developer living in Marrakech, Morocco I'm passionate about creating and developing clean, unique, elegant products. I keep my code clean, readable, modular and well refactored. I enjoy working with complex user interfaces        <br/><br />
+                  <p className="">
+                    A Full Stack developer living in Marrakech, Morocco I'm passionate about creating and developing clean, unique, elegant products. I keep my code clean, readable, modular and well refactored. I enjoy working with complex user interfaces        <br /><br />
                     Skills/Knowledge possessed as follows:
                     <br /><br />
                     • XHTML/HTML/HTML5 , Templating Engine ( Jade/Pug etc.)
                     <br />
-                    • CSS/CSS3 (incl. Grid, Flexbox), Bootstrap 3+, Taiwind Css, SASS/SCSS  
+                    • CSS/CSS3 (incl. Grid, Flexbox), Bootstrap 3+, Taiwind Css, SASS/SCSS
                     <br />
                     • Responsive Design
                     <br />
@@ -121,13 +118,26 @@ function About() {
                     <br />
                     • Git, GulpJs
                     <br />
+                    • Next.js
+                    <br />
+                    • • NodeJs, Express.js, Nest.js
+                    <br />
                     • MongoDB/mongoose
-                    <br/>
+                    <br />
+                    • Django, Django Rest Framework
+                    <br />
                     • Knowledge About API Integration with various CMS/Backend environment context such as NodeJs / Strapi (Head less CMS)
+                    <br />
+                    let's connect , you can reach out to me any time at :
+                    <br />
+                    Email : abderrahman.essebyity@gmail.com
                   </p>
                   <div className="mt-3">
-                    <a href="/pdf/Abderrahman_Essebyity.pdf" className="btn btn-default" >
-                      Download CV
+                    <a href="/pdf/Abderrahman_Essebyity_ENG.pdf" className="btn btn-default" >
+                      Download CV ENG
+                    </a>
+                    <a href="/pdf/Abderrahman_Essebyity_FR.pdf" className="btn btn-default " >
+                      Download CV FR
                     </a>
                   </div>
                   <div

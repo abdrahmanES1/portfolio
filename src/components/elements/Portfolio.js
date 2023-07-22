@@ -33,17 +33,18 @@ function Portfolio({ portfolio }) {
     <>
       <a
         href={link ? link : "!#"}
-        className="work-image"
+        className="work-image h-full"
+
         onClick={handleLightbox}
       >
-        <div className="portfolio-item rounded shadow-dark" style={{ minHeight: "100%" }}>
-          <div className="details" style={{ minHeight: "100%" }}>
+        <div className="portfolio-item rounded shadow-dark" >
+          <div className="details" >
             <span className="term text-capitalize">{category}</span>
             <h4 className="title">{title}</h4>
             <span className="more-button">{handleIcon()}</span>
           </div>
-          <div className="thumb" style={{ minHeight: "100%" }}>
-            <img src={image} alt="Portfolio-title" style={{minHeight:"100%", height: "100%", width:"100%"}} />
+          <div className="thumb" >
+            <img src={image} alt="Portfolio-title"  />
             <div className="mask"></div>
           </div>
         </div>

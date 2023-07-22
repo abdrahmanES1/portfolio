@@ -8,7 +8,19 @@ const educationData = [
     title: "Specialized Institute Of Applied Technology NTIC",
     years: "Oct 2020 - Aug 2022",
     content:
-      "Computer Programming/Programmer, GeneralTechnicienne spécialisée , Developpement Informatique, Computer Programming/Programmer, General",
+      "Computer Programming/Programmer, Computer Programming/Programmer, General",
+  },
+  {
+    id: 2,
+    title: "Meta Back-End Developer Specialization",
+    years: "March 2023",
+    content: ""
+  },
+  {
+    id: 3,
+    title: "Meta Front-End Developer Specialization",
+    years: "March 2023",
+    content: ""
   }
 ];
 
@@ -16,8 +28,19 @@ const experienceData = [
   {
     id: 1,
     title: "Internship MERN stack developer",
-    years: "2022 - Present",
-    content:"build application with React.js and Node.js + Express and JWT",
+    years: "March 2022",
+    content: "build application with React.js and Node.js + Express and JWT",
+  }, {
+    id: 2,
+    title: "Internship Web developer",
+    years: "March 2022 - Present",
+    content: "creation of a web application that manages requests and storage of diplomas. The admin panel manages degree status and student information, it helps to manage degree storage by creating a unique number referencing the location of degree to users.",
+  },
+  {
+    id: 3,
+    title: "Software developer",
+    years: "March 2022 - Present",
+    content: "Creation of desktop and web applications . Implementation of the OpenAi API to create articles from a keyword",
   }
 ];
 

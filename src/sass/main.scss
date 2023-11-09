@@ -37,7 +37,6 @@ section {
 }
 
 section.home {
-  background: url("https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" ), no-repeat, content-box;
   padding: 0;
   height: 100vh;
   min-height: 100vh;
@@ -50,12 +49,12 @@ section.home {
     z-index: 1;
 
     h1 {
-      color: #fff;
+    
       font-size: 36px;
     }
 
     p {
-      color: #fff;
+      
       font-size: 18px;
       margin-bottom: 0;
     }
@@ -73,13 +72,13 @@ section.home {
     }
   }
 
-  .social-icons {
-    li {
-      a {
-        color: #fff;
-      }
-    }
-  }
+  // .social-icons {
+  //   li {
+  //     a {
+        
+  //     }
+  //   }
+  // }
 
   &.light {
     background: #f9f9ff;
@@ -1102,7 +1101,6 @@ select.portfolio-filter-mobile {
 }
 
 .mouse-wrapper {
-  color: #fff;
   font-size: 14px;
   display: block;
   max-width: 100px;
@@ -1110,17 +1108,17 @@ select.portfolio-filter-mobile {
   text-align: center;
   cursor: pointer;
 
-  span {
-    color: #ffffff;
-  }
+  // span {
+  //   color: #ffffff;
+  // }
 
-  &:hover {
-    color: #fff;
-  }
+  // &:hover {
+  //   color: #fff;
+  // }
 }
 
 .mouse {
-  border: solid 2px #fff;
+  border: solid 2px ;
   border-radius: 16px;
   display: block;
   margin: auto;
@@ -1130,7 +1128,7 @@ select.portfolio-filter-mobile {
   width: 20px;
 
   .wheel {
-    background: #fff;
+    background: $colordark;
     border-radius: 100%;
     display: block;
     position: absolute;

@@ -11,7 +11,7 @@ import todo from "../../assets/works/todo.png";
 import ecomapp from "../../assets/works/ecom-app.png";
 import eStudentRent from "../../assets/works/e-student-rent.png"
 import findYourpet from "../../assets/works/find-your-pet.png"
-import certificateManager from "../../assets/works/certificate-manager.png"
+import esteQuiz from "../../assets/works/EsteQuiz.png"
 
 // import Doob from "images/works/doob.png";
 
@@ -41,11 +41,11 @@ import certificateManager from "../../assets/works/certificate-manager.png"
 const allData = [
   {
     id: 9,
-    title: "Certificate manager",
-    link: "https://shark-app-v9rkw.ondigitalocean.app/",
-    repos: "https://github.com/abdrahmanES1",
-    image: certificateManager,
-    tools: ['Python', "Django ", "Css3 ", "Bootstrap", "PostgreSQL"],
+    title: "EsteQuiz",
+    link: "https://quiz-este.vercel.app/",
+    repos: "https://github.com/abdrahmanES1/Quiz",
+    image: esteQuiz,
+    tools: ['React.js', "Chakraui ", "Zustand", "Mongodb", "Express.js"],
   },
   {
     id: 8,

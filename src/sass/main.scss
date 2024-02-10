@@ -293,7 +293,15 @@ section.home {
       transform: translateY(-40px);
       transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
     }
-
+      .tools{
+        display: none;
+        opacity: 0;
+        padding: 5px;
+        position: absolute;
+        bottom: 50px;
+        left: 20px;
+        @include transition(0.4s);
+      }
     .more-button {
       color: #fff;
       font-size: 20px;
@@ -334,7 +342,10 @@ section.home {
         opacity: 1;
         transform: translateY(0);
       }
-
+      .tools{
+        opacity: 1;
+        display: block;
+      }
       .more-button {
         opacity: 1;
       }

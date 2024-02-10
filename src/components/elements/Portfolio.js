@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
 
 function Portfolio({ portfolio }) {
-  const { category, title, image, popupLink, link } = portfolio;
+  const { category, tools, title, image, popupLink, link } = portfolio;
   const [toggler, setToggler] = useState(false);
 
   const handleLightbox = (e) => {
@@ -34,17 +34,17 @@ function Portfolio({ portfolio }) {
       <a
         href={link ? link : "!#"}
         className="work-image h-full"
-
         onClick={handleLightbox}
       >
         <div className="portfolio-item rounded shadow-dark" >
           <div className="details" >
             <span className="term text-capitalize">{category}</span>
             <h4 className="title">{title}</h4>
+            <p className="tools">{tools.map(tool => tool+" / ")}</p>
             <span className="more-button">{handleIcon()}</span>
           </div>
           <div className="thumb" >
-            <img src={image} alt="Portfolio-title"  />
+            <img src={image} alt="Portfolio-title" />
             <div className="mask"></div>
           </div>
         </div>
